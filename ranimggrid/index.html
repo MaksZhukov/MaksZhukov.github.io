@@ -24,15 +24,17 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="random-image-grid-v2.js"></script>
     <script>
-    jQuery(function() {
-        jQuery('#logos').randomImageGrid({
-            rowsNumber: 2,
-            colsNumber: 4,
-            speed: 2000,
-            effectDuration: 300,
-            effectAdd: 'random',
-            effectRemove: 'random',
-            singleResponsive: true
+    JQuery(document).ready(function() {
+        jQuery(function() {
+            jQuery('#logos').randomImageGrid({
+                rowsNumber: 2,
+                colsNumber: 4,
+                speed: 2000,
+                effectDuration: 300,
+                effectAdd: 'random',
+                effectRemove: 'random',
+                singleResponsive: true
+            });
         });
     });
     </script>
