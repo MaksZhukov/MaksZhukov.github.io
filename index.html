@@ -52,12 +52,12 @@ top: 30%;
 left: -12px;
 }
 .dbl-border a:hover {background: #D4D8D9;}
-.three {
+header,footer {
   background: #FCF2E5;
   padding: 50px 20px;
   text-align: center;
 } 
-.three h1 {
+header h1 {
   font-family: 'Merriweather', serif;
   position: relative;
   color: #FCF2E5;
@@ -69,7 +69,7 @@ left: -12px;
   margin: 0;
   line-height: 1;
 }
-.three h1:before {
+header h1:before {
   content: ""; 
   position: absolute;
   width: 100%;
@@ -78,7 +78,7 @@ left: -12px;
   bottom: -15px;
   background: #90806A;
 }
-.three h1:after {
+header h1:after {
   content: ""; 
   position: absolute;
   height: 0;
@@ -90,11 +90,14 @@ left: -12px;
   transform: translateX(-50%);
   bottom: -25px;
 }
+.powered{
+  color: gray;
+}
 @media (max-width: 500px) {
-  .three h1 {font-size: 1.8em;}
+  header h1 {font-size: 1.8em;}
 }
 @media (max-width: 400px) {
-  .three h1 {
+  header h1 {
     font-size: 1.5em;
     padding: 10px 30px;
   }
@@ -102,28 +105,29 @@ left: -12px;
 	</style>
 </head>
 <body>
-	<div class="three"><h1>Верстка</h1></div>
+	<header><h1>Верстка</h1></header>
 <ul class="dbl-border">
-	    <li class="animated bounceInUp" style="animation-delay: 0.2s"><a href="Stable/index.html">Stable<img src="Stable/img/logo.jpg" alt="Stable logo"></a></li>
+	    <li class="animated bounceInUp" style="animation-delay: 0.2s"><a href="stable/index.html">Stable<img src="stable/img/logo.jpg" alt="Stable logo"></a></li>
   <li class="animated bounceInUp" style="animation-delay: 0.4s"><a href="anfracs/index.html">Anfracs<img src="anfracs/img/logo.png" alt="Anfracs logo"></a></li>
   <li class="animated bounceInUp" style="animation-delay: 0.6s"><a href="atlantM/index.html">AtlantM<img src="atlantM/img/logo.png" alt="AtlantM logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 0.8s"><a href="Audreyhipburn/index.html">Audreyhipburn<img src="Audreyhipburn/img/bg_top.jpg" alt="Andreyhipburn logo"></a></li>
-    <li class="animated bounceInUp" style="animation-delay: 1s"><a href="Berloni/index.html">Berloni<img src="Berloni/img/logo.png" alt="Berloni logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 1.2s"><a href="Cherry/index.html">Cherry<img src="Cherry/img/bg_after_header.jpg" alt="Cherry logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 1.4s"><a href="Evacuationplan/index.html">Evacuation plan<img src="Evacuationplan/img/bg_top.png" alt="Evacuation plan logo"></a></li>
-    <li class="animated bounceInUp" style="animation-delay: 1.6s"><a href="Fashionpress/index.html">Fashionpress<img src="Fashionpress/img/product_3.jpg" alt="Fashionpress logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 1.8s"><a href="Figure/index.html">Figure<img src="Figure/img/book.png" alt="Figure logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 2s"><a href="Firealarm/index.html">Firealarm<img src="Firealarm/img/logo.jpg" alt="Firealarm logo"></a></li>
-    <li class="animated bounceInUp" style="animation-delay: 2.2s"><a href="Invacont/index.html">Invacont<img src="Invacont/img/header_logo.png" alt="Invacont logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 2.4s"><a href="Ipad-app/index.html">Ipad app<img src="Ipad-app/img/slider_img_1.jpg" alt="ipad-app logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 2.6s"><a href="JdPortfolio/index.html">JdPortfolio<img src="JdPortfolio/img/HomePage/Photo post 1.jpg" alt="JdPortfolio logo"></a></li>
-    <li class="animated bounceInUp" style="animation-delay: 2.8s"><a href="MeegoFurn/index.html">MeegoFurn<img src="MeegoFurn/img/logo.png" alt="MeegoFurn logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 3.0s"><a href="Pixelplex/index.html">Pixelplex<img src="Pixelplex/img/logo.png" alt="Pixelplex logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 3.2s"><a href="Sofa/main.html">Sofa<img src="Sofa/img/logo.png" alt="Sofa logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 3.4s"><a href="StarnightApp/index.html">StarnightApp<img src="StarnightApp/img/header_bg.jpg" alt="StarnightApp logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 3.6s"><a href="Tours/index.html">Tours<img src="Tours/img/bg.jpg" alt="Tours logo"></a></li>
-    <li class="animated bounceInUp" style="animation-delay: 3.8s"><a href="Velox/index.html">Velox<img src="Velox/img/logo.png" alt="Velox logo"></a></li>
-  <li class="animated bounceInUp" style="animation-delay: 4s"><a href="YourWebsite/index.html">YourWebsite<img src="YourWebsite/img/bg-slider.png" alt="YourWebsite logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 0.8s"><a href="audreyhipburn/index.html">Audreyhipburn<img src="audreyhipburn/img/bg_top.jpg" alt="Andreyhipburn logo"></a></li>
+    <li class="animated bounceInUp" style="animation-delay: 1s"><a href="berloni/index.html">Berloni<img src="berloni/img/logo.png" alt="Berloni logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 1.2s"><a href="cherry/index.html">Cherry<img src="cherry/img/bg_after_header.jpg" alt="Cherry logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 1.4s"><a href="evacuationplan/index.html">Evacuation plan<img src="evacuationplan/img/bg_top.png" alt="Evacuation plan logo"></a></li>
+    <li class="animated bounceInUp" style="animation-delay: 1.6s"><a href="fashionpress/index.html">Fashionpress<img src="fashionpress/img/product_3.jpg" alt="Fashionpress logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 1.8s"><a href="figure/index.html">Figure<img src="figure/img/book.png" alt="Figure logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 2s"><a href="firealarm/index.html">Firealarm<img src="firealarm/img/logo.jpg" alt="Firealarm logo"></a></li>
+    <li class="animated bounceInUp" style="animation-delay: 2.2s"><a href="invacont/index.html">Invacont<img src="invacont/img/header_logo.png" alt="Invacont logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 2.4s"><a href="ipad-app/index.html">Ipad app<img src="ipad-app/img/slider_img_1.jpg" alt="ipad-app logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 2.6s"><a href="jdPortfolio/index.html">JdPortfolio<img src="jdPortfolio/img/HomePage/Photo post 1.jpg" alt="JdPortfolio logo"></a></li>
+    <li class="animated bounceInUp" style="animation-delay: 2.8s"><a href="meegoFurn/index.html">MeegoFurn<img src="meegoFurn/img/logo.png" alt="MeegoFurn logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 3.0s"><a href="pixelplex/index.html">Pixelplex<img src="pixelplex/img/logo.png" alt="Pixelplex logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 3.2s"><a href="sofa/main.html">Sofa<img src="sofa/img/logo.png" alt="Sofa logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 3.4s"><a href="starnightApp/index.html">StarnightApp<img src="starnightApp/img/header_bg.jpg" alt="StarnightApp logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 3.6s"><a href="tours/index.html">Tours<img src="tours/img/bg.jpg" alt="Tours logo"></a></li>
+    <li class="animated bounceInUp" style="animation-delay: 3.8s"><a href="velox/index.html">Velox<img src="velox/img/logo.png" alt="Velox logo"></a></li>
+  <li class="animated bounceInUp" style="animation-delay: 4s"><a href="yourWebsite/index.html">YourWebsite<img src="yourWebsite/img/bg-slider.png" alt="YourWebsite logo"></a></li>
 </ul>
+<footer><span class="powered">Разработал Maks Zhukov</span></footer>
 </body>
 </html>
