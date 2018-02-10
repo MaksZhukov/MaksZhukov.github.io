@@ -6409,8 +6409,12 @@ header {
     .subheader ul.menu li {
       margin: 0 5px; }
     .subheader ul.menu a {
+    	transition: all 0.3s;
       color: #fff;
       font-size: 0.85714em; }
+      .subheader ul.menu a:hover {
+  background: #ecb31b;
+}
   .subheader .call_back a {
     padding: 10px 9px;
     font-size: 0.78571em;
