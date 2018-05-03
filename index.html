@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Верстка сайтов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <style>
+    body {
+        margin: 0;
+    }
+
+    .dbl-border {
+        list-style: none;
+        margin: 0;
+        max-width: 95%;
+        display: none;
+    }
+
+    .dbl-border li {
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .dbl-border li ul {
+        display: none;
+    }
+
+    .dbl-border a {
+        color: #808285;
+        text-decoration: none;
+        border-left: 6px solid #ABC7EA;
+        display: block;
+        padding-left: 25px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 20px;
+        position: relative;
+        transition: 0.3s linear;
+    }
+
+    .dbl-border img {
+        max-height: 100%;
+        height: 100%;
+        float: right;
+    }
+
+    .dbl-border a:before {
+        content: "";
+        width: 6px;
+        height: 70%;
+        background: #EE997C;
+        position: absolute;
+        top: 15%;
+        left: -12px;
+    }
+
+    .dbl-border li:before {
+        content: "";
+        width: 6px;
+        height: 21px;
+        background: #EFDD89;
+        position: absolute;
+        top: 11px;
+        left: -12px;
+    }
+
+    .dbl-border li.dropdown {
+        position: relative;
+        z-index: 15;
+    }
+
+    .dbl-border li.dropdown:after {
+        content: '';
+        border: 6px solid transparent;
+        border-top: 6px solid #90806A;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        transition: all 0.3s;
+    }
+
+    .dbl-border li.dropdown.active:after {
+        border: 6px solid transparent;
+        border-bottom: 6px solid #90806A;
+        top: 12px;
+    }
+
+    .dbl-border a:hover {
+        background: #D4D8D9;
+    }
+
+    header,
+    footer {
+        background: #FCF2E5;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-family: 'Merriweather', serif;
+        position: relative;
+        color: #FCF2E5;
+        background: #90806A;
+        font-size: 2.5em;
+        font-weight: normal;
+        padding: 10px 40px;
+        display: inline-block;
+        margin: 0;
+        line-height: 1;
+    }
+
+    header h1:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        bottom: -15px;
+        background: #90806A;
+    }
+
+    header h1:after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 80%;
+        border-top: 10px solid #90806A;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -25px;
+    }
+
+
+    .d13 {
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 30px;
+        display: table;
+        width: auto;
+        margin: 20px 0 20px 40px;
+        padding: 20px 20px;
+        letter-spacing: 2px;
+        color: #90806A;
+        position: relative;
+        transition: all 0.5s;
+    }
+
+    .d13:hover {
+        color: black;
+    }
+
+    .d13:before {
+        content: "";
+        position: absolute;
+        left: -5px;
+        z-index: -1;
+        background: #fed57b;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .powered {
+        color: gray;
+    }
+
+    @media (max-width: 500px) {
+        header h1 {
+            font-size: 1.8em;
+        }
+    }
+
+    @media (max-width: 400px) {
+        header h1 {
+            font-size: 1.5em;
+            padding: 10px 30px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Верстка и плагины</h1>
+    </header>
+    <div class="sites">
+        <div class="title d13">Верстка</div>
+        <ul class="dbl-border">
+            <li class="dropdown">
+                <a href="#">Delvin<img src="delvin/img/logo.png" alt="Delvin logo"></a>
+                <ul>
+                    <li><a href="delvin/index.html">Главная</a></li>
+                    <li><a href="delvin/catalog.html">Каталог</a></li>
+                    <li><a href="delvin/news.html">Новости</a></li>
+                    <li><a href="delvin/articles.html">Статьи</a></li>
+                    <li><a href="delvin/about.html">О компании</a></li>
+                    <li><a href="delvin/category.html">Категории</a></li>
+                    <li><a href="delvin/delivery.html">Доставка</a></li>
+                    <li><a href="delvin/contacts.html">Контакты</a></li>
+                    <li><a href="delvin/monitoring.html">Мониторинг</a></li>
+                    <li><a href="delvin/single-product.html">Один товар</a></li>
+                    <li><a href="delvin/single-news.html">Одна новость</a></li>
+                    <li><a href="delvin/single-article.html">Одна статья</a></li>
+                </ul>
+            </li>
+        	<li><a href="fashion/index.html">Fashion<img src="fashion/img/logo.png" alt="Fashon logo"></a></li>
+            <li><a href="irepair/index.html">Irepair<img src="irepair/img/logo.png" alt="Irepair logo"></a></li>
+            <li><a href="hrspecial/index.html">Hr Special<img src="hrspecial/img/logo.png" alt="Hr Special logo"></a></li>
+            <li><a href="medicals/index.html">Medicals<img src="medicals/img/logo.png" alt="Medical logo"></a></li>
+            <li><a href="stand/index.html">Stand<img src="stand/img/logo.png" alt="Stand logo"></a></li>
+            <li><a href="collapse_convegence/index.html">Collapse convegence<img src="collapse_convegence/img/logo.png" alt="Collapse convegence logo"></a></li>
+            <li><a href="bestcleaning/index.html">Bestcleaning<img src="bestcleaning/img/logo.png" alt="BestCleaning logo"></a></li>
+            <li class="dropdown">
+                <a href="#">Stable<img src="stable/img/logo.jpg" alt="Stable logo"></a>
+                <ul>
+                    <li><a href="stable/index.html">Главная</a></li>
+                    <li><a href="stable/about.html">О нас</a></li>
+                    <li><a href="stable/blog.html">Блог</a></li>
+                    <li><a href="stable/contacts.html">Контакты</a></li>
+                </ul>
+            </li>
+            <li><a href="anfracs/index.html">Anfracs<img src="anfracs/img/logo.png" alt="Anfracs logo"></a></li>
+            <li><a href="atlantM/index.html">AtlantM<img src="atlantM/img/logo.png" alt="AtlantM logo"></a></li>
+            <li><a href="audreyhipburn/index.html">Audreyhipburn<img src="audreyhipburn/img/bg_top.jpg" alt="Andreyhipburn logo"></a></li>
+            <li class=" dropdown">
+                <a href="berloni/index.html">Berloni<img src="berloni/img/logo.png" alt="Berloni logo"></a>
+                <ul>
+                    <li><a href="berloni/index.html">Главная</a></li>
+                    <li><a href="berloni/brend.html">Бренд</a></li>
+                    <li><a href="berloni/brends.html">Бренды</a></li>
+                    <li><a href="berloni/contact.html">Контакты</a></li>
+                    <li><a href="berloni/katalog.html">Каталог</a></li>
+                    <li><a href="berloni/product.html">Карточка товара</a></li>
+                    <li><a href="berloni/accessories.html">Аксессуары</a></li>
+                    <li><a href="berloni/about.html">О нас</a></li>
+                    <li><a href="berloni/stock.html">Склад</a></li>
+                </ul>
+            </li>
+            <li><a href="cherry/index.html">Cherry<img src="cherry/img/bg_after_header.jpg" alt="Cherry logo"></a></li>
+            <li><a href="evacuationplan/index.html">Evacuation plan<img src="evacuationplan/img/bg_top.png" alt="Evacuation plan logo"></a></li>
+            <li><a href="fashionpress/index.html">Fashionpress<img src="fashionpress/img/product_3.jpg" alt="Fashionpress logo"></a></li>
+            <li><a href="figure/index.html">Figure<img src="figure/img/book.png" alt="Figure logo"></a></li>
+            <li><a href="firealarm/index.html">Firealarm<img src="firealarm/img/logo.jpg" alt="Firealarm logo"></a></li>
+            <li><a href="invacont/index.html">Invacont<img src="invacont/img/header_logo.png" alt="Invacont logo"></a></li>
+            <li><a href="ipad-app/index.html">Ipad app<img src="ipad-app/img/slider_img_1.jpg" alt="ipad-app logo"></a></li>
+            <li class="dropdown">
+                <a href="jdPortfolio/index.html">JdPortfolio<img src="jdPortfolio/img/HomePage/Photo_post_1.jpg" alt="JdPortfolio logo"></a>
+                <ul>
+                    <li><a href="jdPortfolio/index.html">Главная</a></li>
+                    <li><a href="jdPortfolio/Contact.html">Контакты</a></li>
+                    <li><a href="jdPortfolio/Portfolio.html">Портфолио</a></li>
+                    <li><a href="jdPortfolio/Aboutme.html">О нас</a></li>
+                </ul>
+            </li>
+            <li><a href="meegoFurn/index.html">MeegoFurn<img src="meegoFurn/img/logo.png" alt="MeegoFurn logo"></a></li>
+            <li><a href="pixelplex/index.html">Pixelplex<img src="pixelplex/img/logo.png" alt="Pixelplex logo"></a></li>
+            <li class=" dropdown">
+                <a href="sofa/main.html">Sofa<img src="sofa/img/logo.png" alt="Sofa logo"></a>
+                <ul>
+                    <li><a href="sofa/main.html">Главная</a></li>
+                    <li><a href="sofa/category.html">Категории</a></li>
+                    <li><a href="sofa/catalog.html">Каталог</a></li>
+                    <li><a href="sofa/single_product.html">Карточка товара</a></li>
+                </ul>
+            </li>
+            <li><a href="starnightApp/index.html">StarnightApp<img src="starnightApp/img/header_bg.jpg" alt="StarnightApp logo"></a></li>
+            <li><a href="tours/index.html">Tours<img src="tours/img/bg.jpg" alt="Tours logo"></a></li>
+            <li><a href="velox/index.html">Velox<img src="velox/img/logo.png" alt="Velox logo"></a></li>
+            <li><a href="yourWebsite/index.html">YourWebsite<img src="yourWebsite/img/bg-slider.png" alt="YourWebsite logo"></a></li>
+        </ul>
+    </div>
+    <div class="plugins">
+        <div class="title d13">Плагины</div>
+        <ul class="dbl-border">
+            <li><a href="ranimggrid/index.html">Случайный появление логотипов с разными эфектами<img src="ranimggrid/img/O2.png" alt="Ranimggrid logo"></a></li>
+            <li><a href="smoothDivScroll/index.html">Скроллинг таблицы посредством наведения мыши<img style="background:gray" src="smoothDivScroll/right-chevron.svg" alt="SmoothDivScroll logo"></a></li>
+        </ul>
+    </div>
+    <footer><span class="powered">Разработал Maks Zhukov</span></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.sites .title,.plugins .title').click(function(event) {
+            if ($(this).parent().children('.dbl-border').css('display') == 'block') {
+                $(this).parent().children('.dbl-border').hide('slow');
+            } else {
+                $(this).parent().children('.dbl-border').show('slow');
+            }
+        });
+        $('li.dropdown>a').click(function(event) {
+            event.preventDefault();
+            if ($(this).parent().children('ul').css('display') == 'block') {
+                $(this).parent().children('ul').hide("slow");
+                $(this).parent().removeClass('active');
+            } else {
+                $(this).parent().children('ul').show("slow");
+                $(this).parent().addClass('active');
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
