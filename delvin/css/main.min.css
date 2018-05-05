@@ -3,36 +3,36 @@
   font-family: "Roboto";
   font-weight: 300;
   font-style: normal;
-  src: url("./fonts/RobotoLight/RobotoLight.eot");
-  src: url("./fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoLight/RobotoLight.woff") format("woff"), url("./fonts/RobotoLight/RobotoLight.ttf") format("truetype"); }
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Roboto";
   font-weight: normal;
   font-style: normal;
-  src: url("./fonts/RobotoRegular/RobotoRegular.eot");
-  src: url("./fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("./fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Roboto";
   font-weight: normal;
   font-style: italic;
-  src: url("./fonts/RobotoRegularItalic/RobotoRegularItalic.eot");
-  src: url("./fonts/RobotoRegularItalic/RobotoRegularItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoRegularItalic/RobotoRegularItalic.woff") format("woff"), url("./fonts/RobotoRegularItalic/RobotoRegularItalic.ttf") format("truetype"); }
+  src: url("../fonts/RobotoRegularItalic/RobotoRegularItalic.eot");
+  src: url("../fonts/RobotoRegularItalic/RobotoRegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegularItalic/RobotoRegularItalic.woff") format("woff"), url("../fonts/RobotoRegularItalic/RobotoRegularItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
-  src: url("./fonts/RobotoMedium/RobotoMedium.eot");
-  src: url("./fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("./fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"); }
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Roboto";
   font-weight: bold;
   font-style: normal;
-  src: url("./fonts/RobotoMedium/RobotoMedium.eot");
-  src: url("./fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("./fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"); }
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"); }
 
 /*!
  * Bootstrap Grid v4.0.0 (https://getbootstrap.com)
@@ -3162,7 +3162,7 @@ html {
 
 .icon-long-arrow-right, .icon-blood-analysis, .icon-bar-graph, .icon-truck, .icon-flask, .icon-oil-bak, .icon-oil, .icon-rating, .icon-smartphone, .icon-download, .icon-round-location, .icon-round-mail, .icon-round-phone, .icon-round-time, .icon-pass-quality, .icon-technical-description, .icon-search-hover, .icon-search, .icon-mail {
   display: inline-block;
-  background: url("./img/icons.png") no-repeat;
+  background: url("../img/icons.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
@@ -3474,7 +3474,7 @@ section.banner-1 {
     section.banner-1 .content:after {
       content: '';
       position: absolute;
-      background: url("./img/round-blob.png");
+      background: url("../img/round-blob.png");
       display: block;
       width: 546px;
       height: 546px;
@@ -3727,8 +3727,8 @@ section.our-advantages {
 
 section.monitoring-motor-hydraulic-oils {
   padding-top: 7rem;
-  background: url("./img/_monitoring_motor_hydraulic_oils_bg_left.png") -webkit-calc(100% - 1540px) -30px no-repeat, url("./img/_monitoring_motor_hydraulic_oils_bg_right.png") 1610px center no-repeat;
-  background: url("./img/_monitoring_motor_hydraulic_oils_bg_left.png") calc(100% - 1540px) -30px no-repeat, url("./img/_monitoring_motor_hydraulic_oils_bg_right.png") 1610px center no-repeat;
+  background: url("../img/_monitoring_motor_hydraulic_oils_bg_left.png") -webkit-calc(100% - 1540px) -30px no-repeat, url("../img/_monitoring_motor_hydraulic_oils_bg_right.png") 1610px center no-repeat;
+  background: url("../img/_monitoring_motor_hydraulic_oils_bg_left.png") calc(100% - 1540px) -30px no-repeat, url("../img/_monitoring_motor_hydraulic_oils_bg_right.png") 1610px center no-repeat;
   text-align: center;
   margin-bottom: 8rem; }
   section.monitoring-motor-hydraulic-oils p, section.monitoring-motor-hydraulic-oils a {
@@ -3781,7 +3781,7 @@ section.monitoring-motor-hydraulic-oils {
           width: 69px;
           height: 17px;
           display: block;
-          background: url("./img/icons.png") -5px 0px no-repeat;
+          background: url("../img/icons.png") -5px 0px no-repeat;
           right: -130px; }
         section.monitoring-motor-hydraulic-oils .stage-work .work .wrap-icon:after {
           content: '';
@@ -3814,7 +3814,7 @@ section.banner-2 {
   margin-bottom: 6rem; }
   section.banner-2:after {
     content: '';
-    background: url("./img/banner_2.jpg") center/cover no-repeat;
+    background: url("../img/banner_2.jpg") center/cover no-repeat;
     top: 0;
     left: 0;
     z-index: -1;
@@ -4055,7 +4055,7 @@ footer {
   .modal-overlay #order-call {
     max-width: 750px;
     padding: 6.5rem 7.7rem 7rem;
-    background: #fff url("./img/modal_order_call.jpg") right center no-repeat; }
+    background: #fff url("../img/modal_order_call.jpg") right center no-repeat; }
     .modal-overlay #order-call .title {
       margin-bottom: 3.5rem; }
       .modal-overlay #order-call .title span:nth-child(1) {
@@ -4220,7 +4220,7 @@ section.feedback {
     position: absolute;
     top: 0;
     left: 0;
-    background: url("./img/feedback.jpg") no-repeat center/cover; }
+    background: url("../img/feedback.jpg") no-repeat center/cover; }
   section.feedback h3 {
     text-align: center;
     color: #fff;
@@ -4374,7 +4374,7 @@ aside {
 
 .page-about, .page-monitoring {
   padding-bottom: 27rem;
-  background: url("./img/page_bg_bottom.png") center bottom no-repeat; }
+  background: url("../img/page_bg_bottom.png") center bottom no-repeat; }
   .page-about h2, .page-monitoring h2 {
     margin-bottom: 4.4rem; }
   .page-about img, .page-monitoring img {
