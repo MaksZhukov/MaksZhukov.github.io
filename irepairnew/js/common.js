@@ -1,6 +1,6 @@
 $(function () {
   $(document).ready(function () {
-    var mainslide = $('.main_slider').slick({
+    let mainslide = $('.main_slider').slick({
       dots: true,
       speed: 1000,
       fade: true,
@@ -8,7 +8,7 @@ $(function () {
       arrow: false
     });
     mainslide.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-      var slide = $(this).find('.slide').eq(nextSlide);
+      let slide = $(this).find('.slide').eq(nextSlide);
       slide.find('h2').addClass('animated bounceInDown');
       slide.find('h1').addClass('animated bounceInDown');
       slide.find('a').addClass('animated bounceInUp');
@@ -38,7 +38,8 @@ $(function () {
         $("#toTop").fadeOut('slow');
       }
     });
-      var myMap;
+	$(window).scroll();
+      let myMap;
     if ($('*').is('#map')) {
       ymaps.ready(init);
     }
