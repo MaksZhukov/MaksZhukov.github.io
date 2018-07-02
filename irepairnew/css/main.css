@@ -8595,6 +8595,70 @@ section.news {
   font-size: 30px;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 20;
+  padding: 0 25px;
+  display: none;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 25px;
+}
+
+.modal-service-content {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+}
+
+.modal-order-service-content {
+  max-width: 400px;
+}
+
+.modal-order-service-form {
+  padding: 2rem;
+  background: #fff;
+}
+
+.modal-order-service-inpt, .modal-order-service-txtarea, .modal-order-service-btn {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid #323232;
+}
+
+.modal-order-service-inpt, .modal-order-service-txtarea {
+  padding: 10px;
+}
+
+.modal-order-service-txtarea {
+  min-height: 100px;
+}
+
 /*==========  Desktop First  ==========*/
 @media (max-width: 991.98px) {
   .menu {
@@ -8765,10 +8829,10 @@ section.news {
     padding-right: 15px;
   }
   section.proffestial_fast h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   section.proffestial_fast h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 

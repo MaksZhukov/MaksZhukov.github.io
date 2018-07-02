@@ -62,5 +62,12 @@ $(function () {
 
       }
     });
+    $('.modal-link').click(function(event) {
+        event.preventDefault();
+        $($(this).attr('href')).fadeIn('slow');
+    });
+    $('.modal-close').click(function(event) {
+        $(this).parent().parent().fadeOut('fast');
+    });
 
 });
