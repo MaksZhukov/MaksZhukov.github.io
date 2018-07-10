@@ -290,11 +290,17 @@
             <li><a href="smoothDivScroll/index.html">Скроллинг таблицы посредством наведения мыши<img style="background:gray" src="smoothDivScroll/right-chevron.svg" alt="SmoothDivScroll logo"></a></li>
         </ul>
     </div>
+	    <div class="front-end">
+        <div class="title d13">Front-end</div>
+        <ul class="dbl-border">
+            <li><a href="tableEdit/index.html">TableEdit on TypeScript MVC & localstorage</a></li>
+        </ul>
+    </div>
     <footer><span class="powered">Разработал Maks Zhukov</span></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
     $(document).ready(function() {
-        $('.sites .title,.plugins .title').click(function(event) {
+        $('.sites .title,.plugins .title, .front-end .title').click(function(event) {
             if ($(this).parent().children('.dbl-border').css('display') == 'block') {
                 $(this).parent().children('.dbl-border').hide('slow');
             } else {
